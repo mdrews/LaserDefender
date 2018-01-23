@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour {
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            InvokeRepeating("Fire", .5f, .2f);
+            InvokeRepeating("Fire", .0f, .2f);
         }
         if (Input.GetKeyUp(KeyCode.Space))
         {

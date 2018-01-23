@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class Laser : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        //transform.position += Vector3.up;
-	}
+    public float damage = 100f;
+
+    public float GetDamage()
+    {
+        return damage;
+    }
+
+    public void Hit()
+    {
+        Destroy(gameObject);
+    }
 }

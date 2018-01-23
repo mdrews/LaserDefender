@@ -6,7 +6,6 @@ public class Shredder : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        Debug.Log("test");
         Destroy(collider.gameObject);
     }
 }
